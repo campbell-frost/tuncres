@@ -12,7 +12,7 @@ export default function YoutubeVideo({ link, title }: youtubeVideoProps) {
                 width="560"
                 height="315"
                 src={link}
-                title="YouTube video player"
+                title={title}
 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
